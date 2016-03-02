@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_fname_lname"
+        style="@style/TextView_textStyle"
+        android:layout_marginTop="10dp"
+        android:text="Manohar Kurapati"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        style="@style/TextView_textStyle"
+        android:text="42 Broadhust place, Basildon SS14 2FQ"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_salary"
+        style="@style/TextView_textStyle"
+        android:text="£2,000"
+        android:textSize="16sp" />
+
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
