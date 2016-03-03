@@ -7,22 +7,22 @@
     <TextView
         android:id="@+id/tv_fname_lname"
         style="@style/TextView_textStyle"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:text="Manohar Kurapati"
-        android:textSize="26sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tv_address"
         style="@style/TextView_textStyle"
         android:text="42 Broadhust place, Basildon SS14 2FQ"
-        android:textSize="16sp" />
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/tv_salary"
         style="@style/TextView_textStyle"
         android:text="£2,000"
-        android:textSize="16sp" />
+        android:textSize="12sp" />
 
     <View
         android:background="@color/colorPrimary"
